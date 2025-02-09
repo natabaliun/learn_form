@@ -1,0 +1,76 @@
+.user-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: gray;
+
+  .saved-user {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .user-avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin: 5px;
+  }
+
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+  }
+
+  .user-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+
+    label {
+      color: black;
+      font-size: 15px;
+    }
+
+    input {
+      width: calc(100% - 40px);
+      height: 40px;
+      padding: 5px 20px;
+      border-radius: 5px;
+      font-size: 20px;
+    }
+
+    .field-error {
+      color: red;
+      font-size: 12px;
+    }
+  }
+
+  button.submit, button.clear {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
